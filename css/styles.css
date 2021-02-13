@@ -36,9 +36,11 @@ a{
   background-position: top center;
   display: inline-block;
   width: 100%;
+  background-image: url(../images/home.jpg);
+  background-size: cover;
 }
 #Blogs{
-  height: 700px;
+  height: 770px;
   background: rgb(231, 164, 76);
   display: inline-block;
   width: 100%;
@@ -48,11 +50,14 @@ a{
   background: oldlace;
   display: inline-block;
   width: 100%;
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
 }
 h1{
   margin: 100px;
   text-align: center;
   padding: 0;
+  color: #fff;
 }
 p{
   text-align: left;
@@ -72,4 +77,11 @@ h2{
   text-align: center;
   font-size: larger;
   font-weight: bold;
+  color: #fff;
+}
+#Contact p{
+  text-align: center;
+  color: #fff;
+  font-size: larger;
+  font-weight: 700;
 }
